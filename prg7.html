@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form>
+        <!-- firstname -->
+        <label for="fn">FirstName :</label>
+        <input id="fn" type="text" placeholder="FirstName"> <br> <br>
+        
+        <!-- middlename -->
+        <label for="mn">MiddleName :</label>
+        <input id="mn" type="text" placeholder="MiddleName"> <br> <br>
+        
+        <!-- lastname -->
+        <label for="ln">LastName :</label>
+        <input id="ln" type="text" placeholder="LastName"> <br> <br>
+
+        <!-- mail box -->
+        <label for="mail">Email :</label>
+        <input id="mail" type="email" placeholder="email"> <br> <br>
+
+        <!-- calender -->
+        <label for="dob">DOB :</label>
+        <input id="dob" type="date"> <br> <br>
+
+        <!-- choose file -->
+        <label for="myfile">choose your file :</label>
+        <input id="myfile" type="file">
+        
+        <!-- address box -->
+        <label for="add">Address :</label>
+        <textarea id="add" cols="50" rows="10"></textarea> <br>
+        
+        <!-- radio button -->
+        <label>Gender :</label> <br>
+
+        <input name="Gender" id="male" type="radio">
+        <label for="male">Male</label> <br>
+
+        <input name="Gender" id="female" type="radio">
+        <label for="female">Female</label> <br>
+
+        <input name="Gender" id="others" type="radio">
+        <label for="others">Others</label> <br>
+        
+        <!-- drop down box -->
+        <label>Status :</label>
+        <select>
+            <option value="passed">passed</option>
+            <option value="failed">failed</option>
+            <option value="pending" selected>pending</option>
+        </select>
+
+        <!-- checkbox -->
+
+        <input id="ac" type="checkbox">
+        <label for="ac">I accept the condition</label> <br>
+
+        <input id="rc" type="checkbox">
+        <label for="rc">I reject condition</label> <br> <br>
+
+        <!-- number -->
+        <label for="">no of attempts :</label>
+        <input type="number" min="1" max="5">
+
+        
+    </form>
+    
+</body>
+</html>
